@@ -1,0 +1,15 @@
+body, html {
+    color:white;
+    background-image: linear-gradient(blue,black);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    text-align: center;
+}
+.tablink {
+    width:50%;
+    background-color: white;
+    float:left;
+    margin-left: none;
+    padding: 1em;
+
+}
