@@ -8,8 +8,10 @@ body, html {
 .tablink {
     width:50%;
     background-color: white;
-    float:left;
-    margin-left: none;
+    border: none;
+    float: left;
+    outline: none;
+    cursor: pointer;
     padding: 1em;
 
 }

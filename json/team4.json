@@ -1,0 +1,612 @@
+{
+    "Charity":[
+        {
+            "name":"United Way Worldwide",
+            "rank":1,
+            "url":"https://www.unitedway.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Feeding America",
+            "rank":2,
+            "url":"https://www.feedingamerica.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Salvation Army",
+            "rank":3,
+            "url":"https://www.salvationarmy.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"St. Jude Children's Research Hospital",
+            "rank":4,
+            "url":"https://www.stjude.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Direct Relief",
+            "rank":5,
+            "url":"https://www.directrelief.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Habitat for Humanity International",
+            "rank":6,
+            "url":"https://www.habitat.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Americares",
+            "rank":7,
+            "url":"https://www.americares.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"YMCA of the USA",
+            "rank":8,
+            "url":"https://www.ymca.org",
+            "type":"Youth"
+        },
+        {
+            "name":"Boys & Girls Clubs of America",
+            "rank":9,
+            "url":"https://www.bgca.org",
+            "type":"Youth"
+        },
+        {
+            "name":"Compassion International",
+            "rank":10,
+            "url":"https://www.compassion.com",
+            "type":"International Needs"
+        },
+        {
+            "name":"Catholic Charities USA",
+            "rank":11,
+            "url":"https://www.catholiccharitiesusa.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Task Force for Global Health",
+            "rank":12,
+            "url":"https://www.taskforce.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Step Up for Students",
+            "rank":13,
+            "url":"https://www.stepupforstudents.org",
+            "type":"Education"
+        },
+        {
+            "name":"Good 360",
+            "rank":14,
+            "url":"https://good360.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Nature Conservancy",
+            "rank":15,
+            "url":"https://nature.org",
+            "type":"Environment"
+        },
+        {
+            "name":"American National Red Cross",
+            "rank":16,
+            "url":"https://www.redcross.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Samaritan's Purse",
+            "rank":17,
+            "url":"https://www.samaritanspurse.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"World Vision",
+            "rank":18,
+            "url":"https://www.worldvision.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Food for the Poor",
+            "rank":19,
+            "url":"https://foodforthepoor.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Mount Sinai Health Systems",
+            "rank":20,
+            "url":"https://www.mountsinai.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Lutheran Services in America",
+            "rank":21,
+            "url":"https://lutheranservices.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"United States Fund for UNICEF",
+            "rank":22,
+            "url":"https://www.unicefusa.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"MAP International",
+            "rank":23,
+            "url":"https://www.map.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Mayo Clinic",
+            "rank":24,
+            "url":"https://www.mayoclinic.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Cru",
+            "rank":25,
+            "url":"https://www.cru.org",
+            "type":"Religious"
+        },
+        {
+            "name":"American Cancer Society",
+            "rank":26,
+            "url":"https://www.cancer.org",
+            "type":"Health"
+        },
+        {
+            "name":"HealthWell Foundation",
+            "rank":27,
+            "url":"https://www.healthwellfoundation.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Doctors Without Borders USA",
+            "rank":28,
+            "url":"https://www.doctorswithoutborders.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"American Heart Association",
+            "rank":29,
+            "url":"https://www.heart.org",
+            "type":"Health"
+        },
+        {
+            "name":"Planned Parenthood Federation of America",
+            "rank":30,
+            "url":"https://www.plannedparenthood.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Save the Children Federation",
+            "rank":31,
+            "url":"https://www.savethechildren.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Entertainment Industry Foundation",
+            "rank":32,
+            "url":"https://www.eifoundation.org",
+            "type":"Health"
+        },
+        {
+            "name":"Feed the Children",
+            "rank":33,
+            "url":"https://www.feedthechildren.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Catholic Medical Mission Board",
+            "rank":34,
+            "url":"https://cmmb.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Dana-Farber Cancer Institute",
+            "rank":35,
+            "url":"https://www.dana-farber.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Patient Access Network Foundation",
+            "rank":36,
+            "url":"https://www.panfoundation.org",
+            "type":"Health"
+        },
+        {
+            "name":"Make-A-Wish Foundation of America",
+            "rank":37,
+            "url":"https://www.charities.org/charities/make-wish-foundation-america",
+            "type":"Youth"
+        },
+        {
+            "name":"Leukemia & Lymphoma Society",
+            "rank":38,
+            "url":"https://www.lls.org",
+            "type":"Health"
+        },
+        {
+            "name":"Midwest Food Bank",
+            "rank":39,
+            "url":"https://midwestfoodbank.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Catholic Relief Services",
+            "rank":40,
+            "url":"https://www.crs.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Shriners Hospitals for Children",
+            "rank":41,
+            "url":"https://www.shrinerschildrens.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Cross International",
+            "rank":42,
+            "url":"https://www.crossinternational.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"CARE USA",
+            "rank":43,
+            "url":"https://www.care.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"
+            PROFILE
+            Christian Broadcasting Network & Operation Blessing",
+            "rank":44,
+            "url":"https://www1.cbn.com",
+            "type":"Religious"
+        },
+        {
+            "name":"The Assistance Fund",
+            "rank":45,
+            "url":"https://tafcares.org",
+            "type":"Health"
+        },
+        {
+            "name":"Alzheimer's Association",
+            "rank":46,
+            "url":"https://www.alz.org",
+            "type":"Health"
+        },
+        {
+            "name":"Easter Seals",
+            "rank":47,
+            "url":"https://www.easterseals.com",
+            "type":"Health"
+        },
+        {
+            "name":"Convoy of Hope",
+            "rank": 48,
+            "url":"https://convoyofhope.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Wounded Warrior Project",
+            "rank":49,
+            "url":"https://www.woundedwarriorproject.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Goodwill Industries International",
+            "rank": 50,
+            "url":"https://www.goodwill.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"American Kidney Fund",
+            "rank":51,
+            "url":"https://www.kidneyfund.org",
+            "type":"Health"
+        },
+        {
+            "name":"Rotary Foundation of Rotary International",
+            "rank": 52,
+            "url":"https://www.rotary.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"American Civil Liberties Union and Foundation",
+            "rank": 53,
+            "url":"https://www.aclu.org",
+            "type":"Public Affairs"
+        },
+        {
+            "name":"International Rescue Committee",
+            "rank": 54,
+            "url":"https://www.rescue.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Carter Center",
+            "rank": 55,
+            "url":"https://www.cartercenter.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Jewish Federation of Metropolitan Chicago",
+            "rank": 56,
+            "url":"https://www.jconnect.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Jewish Federation of Metropolitan Chicago",
+            "rank": 57,
+            "url":"https://www.jconnect.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"American Jewish Joint Distribution Committee",
+            "rank": 57,
+            "url":"https://www.jdc.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"World Wildlife Fund",
+            "rank": 58,
+            "url":"https://www.worldwildlife.org",
+            "type":"Environment"
+        },
+        {
+            "name":"Matthew 25: Ministries",
+            "rank": 59,
+            "url":"https://m25m.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Marine Toys for Tots Foundation",
+            "rank": 60,
+            "url":"https://www.toysfortots.org",
+            "type":"Youth"
+        },
+        {
+            "name":"Delivering Good",
+            "rank": 61,
+            "url":"https://www.delivering-good.org",
+            "type":"Youth"
+        },
+        {
+            "name":"Cedars-Sinai Health System",
+            "rank": 62,
+            "url":"https://www.cedars-sinai.org",
+            "type":"Medical"
+        },
+        {
+            "name":"American SPCA",
+            "rank": 63,
+            "url":"https://www.aspca.org",
+            "type":"Environment"
+        },
+        {
+            "name":"Houston Food Bank",
+            "rank": 64,
+            "url":"https://www.houstonfoodbank.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Public Broadcasting Service",
+            "rank": 65,
+            "url":"https://www.pbs.org",
+            "type":"Public Broadcasting"
+        },
+        {
+            "name":"Young Life",
+            "rank": 66,
+            "url":"https://younglife.org",
+            "type":"Religious"
+        },
+        {
+            "name":"Memorial Sloan Kettering Cancer Center",
+            "rank": 67,
+            "url":"https://www.mskcc.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Special Olympics",
+            "rank": 68,
+            "url":"https://www.specialolympics.org",
+            "type":"Youth"
+        },
+        {
+            "name":"Heart to Heart International",
+            "rank": 69,
+            "url":"https://www.hearttoheart.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Boston Children's Hospital",
+            "rank": 70,
+            "url":"https://www.childrenshospital.org",
+            "type":"Medical"
+        },
+        {
+            "name":"New York-Presbyterian Hospital",
+            "rank": 71,
+            "url":"https://www.nyp.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Wycliffe Bible Translators",
+            "rank": 72,
+            "url":"https://www.wycliffe.org",
+            "type":"Religious"
+        },
+        {
+            "name":"Second Harvest Heartland",
+            "rank": 73,
+            "url":"https://www.2harvest.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"ChildFund International",
+            "rank": 74,
+            "url":"https://www.childfund.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Disabled American Veterans",
+            "rank": 75,
+            "url":"https://www.dav.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"UJA/Federation of New York",
+            "rank": 76,
+            "url":"https://www.ujafedny.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Environmental Defense Fund",
+            "rank": 77,
+            "url":"https://www.edf.org",
+            "type":"Environment"
+        },
+        {
+            "name":"Metropolitan Museum of Art",
+            "rank": 78,
+            "url":"https://www.metmuseum.org",
+            "type":"Cultural"
+        },
+        {
+            "name":"Population Services International",
+            "rank": 79,
+            "url":"https://www.psi.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"Educational Media Foundation",
+            "rank": 80,
+            "url":"https://www.educationalmediafoundation.org",
+            "type":"Religious"
+        },
+        {
+            "name":"Combined Jewish Philanthropies",
+            "rank": 81,
+            "url":"https://www.cjp.org/about-us",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"City of Hope",
+            "rank": 82,
+            "url":"https://www.cityofhope.org",
+            "type":"Medical"
+        },
+        {
+            "name":"Scholarship America",
+            "rank": 83,
+            "url":"https://scholarshipamerica.org",
+            "type":"Education"
+        },
+        {
+            "name":"Michael J. Fox Foundation for Parkinson's Research",
+            "rank": 84,
+            "url":"https://www.michaeljfox.org",
+            "type":"Health"
+        },
+        {
+            "name":"Robin Hood Foundation",
+            "rank": 85,
+            "url":"https://www.robinhood.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Susan G. Komen",
+            "rank": 86,
+            "url":"https://www.komen.org",
+            "type":"Health"
+        },
+        {
+            "name":"Teach for America",
+            "rank": 87,
+            "url":"https://www.teachforamerica.org",
+            "type":"Education"
+        },
+        {
+            "name":"JDRF International",
+            "rank": 88,
+            "url":"https://www.jdrf.org",
+            "type":"Health"
+        },
+        {
+            "name":"St. Mary's Food Bank Alliance",
+            "rank": 89,
+            "url":"https://www.firstfoodbank.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"PATH",
+            "rank": 90,
+            "url":"https://www.path.org",
+            "type":"International Needs"
+        },
+        {
+            "name":"United Service Organizations",
+            "rank": 91,
+            "url":"https://www.uso.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Smithsonian Institution",
+            "rank": 92,
+            "url":"https://www.si.edu",
+            "type":"Cultural"
+        },
+        {
+            "name":"Metropolitan Opera Association",
+            "rank": 93,
+            "url":"https://www.metopera.org",
+            "type":"Cultural"
+        },
+        {
+            "name":"Covenant House",
+            "rank": 94,
+            "url":"https://www.covenanthouse.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Father Flanagan's Boys' Home",
+            "rank": 95,
+            "url":"https://www.boystown.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"Northern Illinois Food Bank",
+            "rank": 96,
+            "url":"https://www.feedingamerica.org",
+            "type":"Domestic Needs"
+        },
+        {
+            "name":"The Arc of the United States",
+            "rank": 97,
+            "url":"https://thearc.org",
+            "type":"Health"
+        },
+        {
+            "name":"Barack Obama Foundation",
+            "rank": 98,
+            "url":"https://www.obama.org",
+            "type":"Public Affairs"
+        },
+        {
+            "name":"Humane Society of the United States",
+            "rank": 99,
+            "url":"https://www.humanesociety.org",
+            "type":"Environment"
+        },
+        {
+            "name":"International Fellowship of Christians and Jews",
+            "rank": 100,
+            "url":"https://www.ifcj.org",
+            "type":"International Needs"
+        }
+    ]
+}
