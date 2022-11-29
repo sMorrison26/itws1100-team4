@@ -18,28 +18,74 @@ $(document).ready(function () {
                         $("#Domestic").append(output);
                         break;
                     case "Medical":
-                        $("#Domestic").append(output);
+                        $("#Medical").append(output);
                         break;
                     case "Environment":
-                        $("#Domestic").append(output);
+                        $("#Environment").append(output);
                         break;
                     case "Religious":
-                        $("#Domestic").append(output);
+                        $("#Religious").append(output);
                         break;
                     case "Health":
-                        $("#Domestic").append(output);
+                        $("#Health").append(output);
                         break;
                     case "Youth":
-                        $("#Domestic").append(output);
+                        $("#Youth").append(output);
                         break;
                     default: 
                         break;
-                    }
-                });
-            }
+                }
+            });
+        }, error: function(msg){
+            alert('There was a problem: '+msg.status+' '+msg.statusText);
+        }
+    });
+    // resetDivs();
+    $("#DiscoverLink").click( function() {
+        resetDivs();
+        $("#DiscoverLink").addClass("active");
+        $("#Discover div").each( function() {
+            $(this).show();
         });
-    // $("#Discover").hide();  
-    $("#Discover").click( function() {
-        $("#Discover").toggle();
+    });
+    $("#TopCharitiesLink").click( function() {
+        resetDivs();
+        $("#TopCharities").show();
+        $("#TopCharitiesLink").addClass("active");
+    });
+    $("#FavoritesLink").click( function() {
+        resetDivs();
+        $("#Favorites").show();
+        $("#FavoritesLink").addClass("active");
+    });
+    $("#HelpLink").click( function() {
+        resetDivs();
+        $("#Help").show();
+        $("#HelpLink").addClass("active");
+    });
+    $("#AboutLink").click( function() {
+        resetDivs();
+        $("#About").show();
+        $("#AboutLink").addClass("active");
+    });
+    $("#ProfileLink").click( function() {
+        resetDivs();
+        $("#Profile").show();
+        $("#ProfileLink").addClass("active");
     });
 });
+
+function resetDivs(){
+    $("#nav a").each(function () {
+        if ($(this).hasClass("active")){
+            $(this).removeClass("active");
+            // var idName = $(this).attr('id');
+            // $("div["+idName+"]").hide();
+            // document.getElementById("#hi").innerHTML(idName);
+            // document.getElementById(idName).hide();
+        }
+    });
+    $("#main div").each(function () {
+        $(this).hide();
+    });
+}

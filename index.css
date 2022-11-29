@@ -1,6 +1,6 @@
 
 body {
-    background-color: #01539d;
+    background-color: #fcf6f6;
     color: black;
     font-family: 'Times New Roman', Times, serif;
     /* overflow-x: hidden; */
@@ -8,8 +8,9 @@ body {
     margin: 0;
 }
 #head {
-    background-color: #eea47f;
-    padding: 2rem 1rem;
+    /* background-color: #eea47f; */
+    background-color: rgb(119, 211, 211);
+    padding: 0.1rem 1rem;
     margin: 0 auto;
     display: block;
     /* position: relative;
@@ -23,22 +24,26 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-color: #01539d;
+  background-color: #fcf6f6;
+  color: black;
 }
 #nav a {
   float: left;
   display: block;
-  color: white;
+  /* color: white; */
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
 }
 #nav a:hover{
-    background-color: #eea47f;
+    background-color: rgb(119, 211, 211);
     color: black;
 }
+#nav a.active {
+    background-color: rgb(119, 211, 211);
+}
 .charity {
-    background-image: linear-gradient(#eea47f, #eea47f, #01539d);
+    background-image: linear-gradient(rgb(119, 211, 211), rgb(119, 211, 211), #ebc0af);
     background-color: #eea47f;
     color: black;
     margin: 0 auto;
@@ -48,12 +53,12 @@ body {
     box-shadow: 10px 10px 10px black;
 }
 
-.charity a , .charity p:nth-child(4){
+/* .charity a , .charity p:nth-child(4){
     color: white;
-}
+} */
 
 #foot {
-    background-color: #eea47f;
+    background-color: rgb(119, 211, 211);
     padding: 0.5rem 0.5rem;
     width: 100%;
     text-align: center;
