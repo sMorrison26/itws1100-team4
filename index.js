@@ -48,21 +48,51 @@ $(document).ready(function () {
     });
     $("#INbtn").click(function () {
         hideAllDiscover();
-        // $("#")
+        $("#Discover").show();
+        $("#International").show();
+        $("#International div").each(function () {
+            $(this).show();
+        });
     });
     $("#DNbtn").click(function () {
-
+        hideAllDiscover();
+        $("#Discover").show();
+        $("#Domestic").show();
+        $("#Domestic div").each(function () {
+            $(this).show();
+        });
     });
     $("#Mbtn").click(function () {
-
+        hideAllDiscover();
+        $("#Discover").show();
+        $("#Medical").show();
+        $("#Medical div").each(function () {
+            $(this).show();
+        });
     });
     $("#Ebtn").click(function () {
-
+        hideAllDiscover();
+        $("#Discover").show();
+        $("#Environment").show();
+        $("#Environment div").each(function () {
+            $(this).show();
+        });
     });
     $("#Rbtn").click(function () {
-
+        hideAllDiscover();
+        $("#Discover").show();
+        $("#Religious").show();
+        $("#Religious div").each(function () {
+            $(this).show();
+        });
     });
     $("#Ybtn").click(function () {
+        hideAllDiscover();
+        $("#Discover").show();
+        $("#Youth").show();
+        $("#Youth div").each(function () {
+            $(this).show();
+        });
     });
 
 
