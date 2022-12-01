@@ -35,10 +35,9 @@ body {
 }
 .charity {
     background-image: linear-gradient(rgb(119, 211, 211), rgb(119, 211, 211), #ebc0af);
-    /* background-color: #eea47f; */
     color: black;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     padding: 5px 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
