@@ -63,7 +63,6 @@ $(document).ready(function () {
 
     });
     $("#Ybtn").click(function () {
-
     });
 
 
@@ -72,7 +71,7 @@ function hideAllDiscover(){
     $("#Discover div").each(function() {
         $(this).hide();
     });
-    $("#SortButtons").show();e fox  the l 
+    $("#SortButtons").show();
 }
 function resetDivs(){
     //find the anchor tag with the active class and remove it
