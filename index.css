@@ -71,6 +71,26 @@ body {
     background-color: rgb(187, 187, 187);
     transform: translateY(2px);
 }
+
+#TopCharities { 
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+#charitylist {
+  margin: auto; 
+  margin-top: 20px; 
+  left: 50%;
+  border-radius: 25px;
+  border: 3px solid gray;
+  padding: 20px;
+  width: 700px;
+  height: 150px;
+  box-shadow: 7px 7px 7px black;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 16px;
+}
 /* #dropdownButton {
     background-color: #04AA6D;
     color: white;
