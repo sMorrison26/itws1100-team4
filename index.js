@@ -1,9 +1,10 @@
 $(document).ready(function () {
 
-    //Load the json file into the main div
     //hide on load
     resetDivs();
+    //Load the json file into the main div
     loadDiscover();
+    //Actions for clicks on the nav bar links
     $("#DiscoverLink").click( function() {
         resetDivs();
         $("#DiscoverLink").addClass("active");
@@ -38,10 +39,41 @@ $(document).ready(function () {
         $("#Profile").show();
         $("#ProfileLink").addClass("active");
     });
-    $("#dropdownContent").removeClass("activeDiv");
-    $("#dropdown").removeClass("activeDiv");
-});
 
+    //Actions for clicks on the sort buttons
+    $("#Allbtn").click(function () {
+        $("#Discover div").each(function () {
+            $(this).show();
+        })
+    });
+    $("#INbtn").click(function () {
+        hideAllDiscover();
+        // $("#")
+    });
+    $("#DNbtn").click(function () {
+
+    });
+    $("#Mbtn").click(function () {
+
+    });
+    $("#Ebtn").click(function () {
+
+    });
+    $("#Rbtn").click(function () {
+
+    });
+    $("#Ybtn").click(function () {
+
+    });
+
+
+});
+function hideAllDiscover(){
+    $("#Discover div").each(function() {
+        $(this).hide();
+    });
+    $("#SortButtons").show();e fox  the l 
+}
 function resetDivs(){
     //find the anchor tag with the active class and remove it
     $("#nav a").each(function () {
