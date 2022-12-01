@@ -2,7 +2,7 @@
 body {
     background-color: #fcf6f6;
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* overflow-x: hidden; */
     /* -webkit-scrollbar: none; */
     margin: 0;
@@ -38,6 +38,7 @@ body {
 #nav a:hover{
     background-color: rgb(119, 211, 211);
     color: black;
+    text-decoration: underline;
 }
 #nav a.active {
     background-color: rgb(119, 211, 211);
@@ -68,3 +69,34 @@ body {
 #foot a {
     color: black;
 }
+
+#Help {
+    text-align: center; 
+    font-size: 40px; 
+    font-weight:bold; 
+    margin-top: 30px; 
+}
+
+#Helpparagraph {
+    font-size: 20px; 
+    font-weight:lighter; 
+    margin-top: 50px; 
+    line-height: 40px;
+}
+
+#About { 
+    font-size: 40px; 
+    margin-top: 30px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+#Aboutparagraph { 
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px; 
+}
+
+
+
+
