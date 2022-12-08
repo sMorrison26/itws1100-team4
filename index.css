@@ -47,22 +47,26 @@ body {
     box-shadow: 10px 10px 10px black;
 }
 #SortButtons {
+    background-color: #fcf6f6;
     text-align: center;
-    margin: 0rem auto;
+    margin: 0em auto;
     padding: 25px 25px;
     position: sticky;
     position: -webkit-sticky;
+    top: 3em;
+    border-bottom: 1px solid black;
 }
 .sort {
     background-color: rgb(119, 211, 211);
     color: black;
     border-radius: 5px;
     box-shadow: 0px 2px 5px black;
-    text-align: center;
+    padding: 5px;
+    /* text-align: center;
     cursor: pointer;
     margin: 0 auto;
     width: fit-content;
-    height: 100%;
+    /* height: 100%; */ 
 }
 .sort:hover {
     background-color: rgb(104, 185, 185);
@@ -97,10 +101,22 @@ body {
     position: fixed;
     bottom: 0;
 }
-#foot a {
-    color: black;
+#TopCharities img {
+    width: 25%;
+    height: 25%;
 }
-
+#TopCharities p {  
+    margin: auto; 
+    margin-top: 20px; 
+    left: 50%;
+    border-radius: 25px;
+    border: 3px solid gray;
+    padding: 20px;
+    box-shadow: 0 7px 7px black;
+    text-align: center;
+    font-size: 16px;
+    background-image: none;
+}   
 #About , #Help { 
     margin: 0 auto;
     text-align: center;
@@ -113,62 +129,61 @@ body {
     text-align: justify;
 }
 #About img {
-    margin: 0.5em 1em;
+    margin: 0.5em 0.5em;
     width: 10%;
 }
 
 @media screen and (max-width: 450px ){
-    html {
-        overflow-x: hidden;
-    }
-    #TopCharities p {
-        width: 80%;
-    }
-    #TopCharities img { 
-        height: 30%;
-        width: 30%;
-    }
-    #Help ol {
-        width: 90%;
-    }
-    #About p {
-        width: 90%;
-        line-height: auto;
-    }
-    #About img {
-        width: 20%;
-    }
-    #Help ol {
-        width: 80%;
-    }
-    #nav a {
-        width: 90%;
-    }
-    #head img {
-        width: 10%;
-        height: 10%;
-        float: right;
-    }
-    .charity {
-        width: 300px;
-        box-shadow: 0 10px 15px black;
-    }
-    #SortButtons , #SortButtons button{
-        display: none;
-    }
-    /* #SortButtons {
-        position: sticky;
-        position: -webkit-sticky;
-        top: 5em;
-        background-color: white;
-    }
-    #SortButtons button {
-        display: none;
-        float: left;
-        text-align: justify;
-        padding: 15px 20px;
-    } */
-   
+   html {
+    overflow-x: hidden;
+   }
+   #TopCharities p {
+    width: 70%;
+    font-size: 10px;
+   }
+   #TopCharities img { 
+    height: 50%;
+    width: 50%;
+   }
+   #About p , #Help p {
+    width: 90%;
+    line-height: 15px;
+    font-size: 10px;
+   }
+   #About img {
+    width: 20%;
+   }
+   #nav a {
+    width: 90%;
+    padding: 10px 15px;
+    font-size: 12px;
+   }
+   #head img {
+    width: 10%;
+    height: 10%;
+    float: right;
+   }
+   .charity {
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 10px 15px black;
+    font-size: 10px;
+   }
+   #SortButtons {
+    padding: 5px;
+    padding-bottom: 10px;
+    top: 8.5em;
+   }
+   .sort {
+    font-size: 8px;
+   }
+   .sort:active {
+    transform: none;
+   }
+   #foot {
+    padding: 0 0;
+    font-size: 10px;
+   }
 }
 
 
