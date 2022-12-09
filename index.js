@@ -44,7 +44,7 @@ $(document).ready(function () {
     $("#Allbtn").click(function () {
         $("#Discover div").each(function () {
             $(this).show();
-        })
+        });
     });
     $("#INbtn").click(function () {
         hideAllDiscover();

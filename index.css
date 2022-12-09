@@ -17,7 +17,6 @@ body {
 }
 #nav {
   overflow: hidden;
-  background-color: none;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
